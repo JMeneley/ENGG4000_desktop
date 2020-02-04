@@ -1,10 +1,10 @@
 # ENGG4000_desktop
 Repository for general desktop application resources
 
-**You must run this on a computer that supports BLE, I don't think that any of the computers at the school do. This should work on MacOS but I am not entirely certain**
+**You must run this on a computer that supports BLE, if you cannot connect to the wearable make sure the bluetooth on your computer is turned on, unfortunately this library will not prompt you to turn it on**
 
 # Setup
- - Install python 3.7 (https://www.python.org/downloads/release/python-376/)
+ - Install Python 3.7 (https://www.python.org/downloads/release/python-376/), **the libraries being used aren't compatible with Python 3.8 so make sure you install and use 3.7**
  - Clone this repo
  - Open a terminal and navigate to this folder, run the command `pip install -r requirements.txt`
   - pip is a package(library) manager for Python and the command above installs all the packages you need
